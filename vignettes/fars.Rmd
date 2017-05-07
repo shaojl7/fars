@@ -1,0 +1,14 @@
+---
+title: "fars"
+author: "shaoj"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+fars package are created as part of the Coursera Online Course [Building R Packages](https://www.coursera.org/learn/r-packages/home/welcome). This package contains functions that can be used to analyze the US National Highway Traffic Safety Administration's [Fatality Analysis Reporting System](https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars), which is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes. 
+
+fars package include helper functions to read data based on specific years, and to analyze and plot the data. Sample function call includes `fars_summarize_years(2016)`
